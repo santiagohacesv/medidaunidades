@@ -1,0 +1,27 @@
+html{ font-size: 24px; } /*establece los pixeles de toda la pagina*/
+
+h1{ font-size: 16px; } /*Le da un tamaño de letra de 16 pixeles*/
+
+h2{ font-size: 1rem; } /*Le da un tamaño de letra de 1 rem (24 pixeles)*/
+
+h3{ font-size: 1.75rem; } /*le da un tamaño de letra de 1.75 rem (42 pixeles)*/
+
+h4{ font-size: 1.5rem; } /*le da un tamaño de letra de 1.5 rem (36 pixeles)*/
+
+h5{ font-size: 1.25rem; } /*le da un tamaño de letra de 1.25 rem (30 pixeles)*/
+
+h6{ font-size: 1.05rem; } /*le da un tamaño de letra de 1.05 rem (25.2 pixeles)*/
+
+.contenedor{
+    width: 70%;
+    height: 400px;
+    background-color: aqua;
+    margin: 30px auto; } /*hace que a la clase contenedor, le de una anchura de 70%, una altura de 400px, un
+    color de fondo aqua y un margen automatico de 30 pixeles*/
+
+.hijo{
+    width: 70vw;
+    height: 50vh;
+    background-color: blueviolet;
+    margin: 30px auto; } /*hace que a la clase hijo le de una anchura de 70 viewports width, una altura
+    de 50 viewports height, un color de fondo azul-morado y un margen automatico de 30 pixeles*/
